@@ -12,7 +12,7 @@ public class Topico {
 	
 	private String mensagem;
 	
-	private LocalDateTime dataCriacao;
+	private LocalDateTime dataCriacao = LocalDateTime.now();;
 	
 	private StatusTopico status = StatusTopico.NAO_RESPONDIDO;
 	

@@ -3,21 +3,20 @@ package br.com.alura.controller;
 import java.util.Arrays;
 import java.util.List;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
+import br.com.alura.controller.dto.TopicoDTO;
 import br.com.alura.modelo.Curso;
 import br.com.alura.modelo.Topico;
 
-@Controller
+@RestController
 public class TopicoController {
 
 	@RequestMapping("/topicos")
-	@ResponseBody
-	public List<Topico> lista() {
+	public List<TopicoDTO> lista() {
 		Topico topico = new Topico("Dúvida", "Dúvida com Spring", new Curso("Spring", "Programação"));
 		
-		return Arrays.asList(topico, topico, topico);
+		return TopicoDTO.converter(Arrays.asList(topico, topico, topico));
 	}
 }
