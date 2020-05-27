@@ -16,11 +16,6 @@ public class Curso {
 	
 	private String categoria;
 	
-	public Curso(String nome, String categoria) {
-		this.nome = nome;
-		this.categoria = categoria;
-	}
-
 	public Long getId() {
 		return id;
 	}
