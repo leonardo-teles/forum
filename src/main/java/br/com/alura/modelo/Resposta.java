@@ -23,7 +23,7 @@ public class Resposta {
 	private LocalDateTime dataCriacao;
 	
 	@ManyToOne
-	private Usuario usuario;
+	private Usuario autor;
 	
 	private Boolean solucao = false;
 
@@ -59,12 +59,12 @@ public class Resposta {
 		this.dataCriacao = dataCriacao;
 	}
 
-	public Usuario getUsuario() {
-		return usuario;
+	public Usuario getAutor() {
+		return autor;
 	}
 
-	public void setUsuario(Usuario usuario) {
-		this.usuario = usuario;
+	public void setAutor(Usuario autor) {
+		this.autor = autor;
 	}
 
 	public Boolean getSolucao() {

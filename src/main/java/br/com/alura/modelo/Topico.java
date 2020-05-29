@@ -30,7 +30,7 @@ public class Topico {
 	private StatusTopico status = StatusTopico.NAO_RESPONDIDO;
 	
 	@ManyToOne
-	private Usuario usuario;
+	private Usuario autor;
 	
 	@ManyToOne
 	private Curso curso;
@@ -87,12 +87,12 @@ public class Topico {
 		this.status = status;
 	}
 
-	public Usuario getUsuario() {
-		return usuario;
+	public Usuario getAutor() {
+		return autor;
 	}
 
-	public void setUsuario(Usuario usuario) {
-		this.usuario = usuario;
+	public void setAutor(Usuario autor) {
+		this.autor = autor;
 	}
 
 	public Curso getCurso() {
