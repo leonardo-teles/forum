@@ -1,5 +1,7 @@
 # Spring Boot Parte 1: Construa uma API Rest
 
+Certificado: <a href="https://cursos.alura.com.br/certificate/74f3446f-2672-45f8-b56d-58cc4c41cd0e" rel="noopener" targer="_blank">1</a>
+
 Tópicos Abordados:
 
 **1. Introdução ao Spring Boot**
