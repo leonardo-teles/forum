@@ -9,19 +9,20 @@
 	<groupId>br.com.alura</groupId>
 	<artifactId>forum</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 	<name>forum</name>
 	<description>API REST do Curso Spring Boot </description>
 
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-
-	<properties>
-		<java.version>1.8</java.version>
-	</properties>
 
 	<dependencies>
 		<dependency>
