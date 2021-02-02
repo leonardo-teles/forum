@@ -93,3 +93,42 @@ Tópicos Abordados:
    - Documentação da API com SpringFox Swagger
    - Token JWT na documentação do Swagger
    - Enviando token JWT no Swagger
+   
+# Spring Boot e Teste: Profiles, Testes e Deploy
+
+Certificado: <a href="https://cursos.alura.com.br/certificate/cb5d3622-1a81-4ea0-a13c-5085eccbc66e" rel="noopener" targer="_blank">III</a>
+
+Tópicos Abordados:
+
+**1. Mais segurança**
+   - Atualizando o Spring Boot
+   - Autorização baseada em Roles
+   - Restringindo o acesso a determinado endpoint
+
+**2. Profiles**
+   - Spring profiles
+   - Beans baseados em profiles
+   - Utilização da anotação @Profile
+   
+**3. Testes automatizados**
+   - Testes automatizados com Spring Boot
+   - Anotação @SpringBootTest
+   - Testando um repository
+   - Anotação @DataJpaTest
+   - Testando o repository com outro banco de dados
+   - Alterando o banco de dados utilizado durante os testes
+   - Testando um Controller
+   - Injetando o MockMvc
+   
+**4. Deploy**
+   - Geração do jar da aplicação via Maven
+   - Externalizando senhas com variáveis de ambiente
+   - Deploy tradicional com arquivo war
+   
+**5. Deploy com Docker e na nuvem**
+   - Gerando imagem Docker da aplicação
+   - Arquivo Dockerfile
+   - Rodando a aplicação via Docker
+   - Variáveis de ambiente no Docker
+   - Deploy no Heroku
+   - Spring Boot em ambientes Cloud
